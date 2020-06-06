@@ -6,7 +6,7 @@
 const path = require('path');
 const exec = require('child_process').execSync;
 
-const WEBRTC_BIN_PATH = path.join(__dirname, '../lib/WebRTC.framework');
+const WEBRTC_BIN_PATH = path.join(__dirname, '../frameworks/pjor94.webRTC.framework/WebRTC.framework');
 const ARCH_TYPES = ['i386', 'x86_64', 'armv7', 'arm64'];
 
 /* === Example to strip simulator archs for Apple Store Submission ===
@@ -15,7 +15,7 @@ const ARCH_TYPES = ['i386', 'x86_64', 'armv7', 'arm64'];
  *    `node ios_arch.js --extract`
  * Step 2. re-package binary without simulator archs
  *    `node ios_arch.js --device`
- * 
+ *
  * That's it!
  * Remember to delete generated/backed up files (WebRTC-*) from step 1 if needed
  *
