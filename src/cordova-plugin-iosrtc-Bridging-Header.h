@@ -5,7 +5,7 @@
 
 #import <Cordova/CDVPlugin.h>
 
-@import WebRTC
+@import WebRTC;
 
 //#import <WebRTC/RTCAudioSource.h>
 //#import <WebRTC/RTCAudioTrack.h>
