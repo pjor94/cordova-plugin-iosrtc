@@ -93,7 +93,7 @@
 
 		<!-- WebRTC library -->
 <!--		<framework src="lib/WebRTC.framework" custom="true" embed="true" />-->
-		<framework src="pjor94.webRTC.framework" type="podspec" spec=":path => &quot;/frameworks/pjor94.webRTC.framework/&quot;" />
+		<framework src="pjor94.webRTC.framework" type="podspec"  />
 
 	</platform>
 
