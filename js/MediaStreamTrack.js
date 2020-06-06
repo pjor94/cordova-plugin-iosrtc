@@ -14,8 +14,7 @@ module.exports = MediaStreamTrack;
  */
 var
 	debug = require('debug')('iosrtc:MediaStreamTrack'),
-	cordova = require('cordova'),
-	exec = cordova.require('cordova/exec'),
+	exec = require('cordova/exec'),
 	enumerateDevices = require('./enumerateDevices'),
 	MediaTrackCapabilities = require('./MediaTrackCapabilities'),
 	MediaTrackSettings = require('./MediaTrackSettings'),

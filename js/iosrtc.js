@@ -18,8 +18,7 @@ var
  * Dependencies.
  */
 	debug                  = require('debug')('iosrtc'),
-	cordova = require('cordova'),
-	exec = cordova.require('cordova/exec'),
+	exec                   = require('cordova/exec'),
 	domready               = require('domready'),
 
 	getUserMedia           = require('./getUserMedia'),

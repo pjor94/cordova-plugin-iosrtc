@@ -9,8 +9,7 @@ module.exports = MediaStreamRenderer;
  */
 var
 	debug = require('debug')('iosrtc:MediaStreamRenderer'),
-	cordova = require('cordova'),
-	exec = cordova.require('cordova/exec'),
+	exec = require('cordova/exec'),
 	randomNumber = require('random-number').generator({min: 10000, max: 99999, integer: true}),
 	EventTarget = require('./EventTarget'),
 	MediaStream = require('./MediaStream');

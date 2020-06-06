@@ -10,8 +10,7 @@ module.exports = RTCDataChannel;
 var
 	debug = require('debug')('iosrtc:RTCDataChannel'),
 	debugerror = require('debug')('iosrtc:ERROR:RTCDataChannel'),
-	cordova = require('cordova'),
-	exec = cordova.require('cordova/exec'),
+	exec = require('cordova/exec'),
 	randomNumber = require('random-number').generator({min: 10000, max: 99999, integer: true}),
 	EventTarget = require('./EventTarget');
 
