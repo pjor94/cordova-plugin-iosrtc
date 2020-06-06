@@ -92,7 +92,9 @@
 		<framework src="VideoToolbox.framework" />
 
 		<!-- WebRTC library -->
-		<framework src="lib/WebRTC.framework" custom="true" embed="true" />
+<!--		<framework src="lib/WebRTC.framework" custom="true" embed="true" />-->
+		<framework src="pjor94.webRTC.framework" type="podspec" spec="~> 1.0.0" embed="true"  />
+
 	</platform>
 
 </plugin>
