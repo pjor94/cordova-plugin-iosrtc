@@ -10,7 +10,8 @@ module.exports = getUserMedia;
 var
 	debug = require('debug')('iosrtc:getUserMedia'),
 	debugerror = require('debug')('iosrtc:ERROR:getUserMedia'),
-	exec = require('cordova/exec'),
+	cordova = require('cordova'),
+	exec = cordova.require('cordova/exec'),
 	MediaStream = require('./MediaStream'),
 	Errors = require('./Errors');
 
