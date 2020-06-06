@@ -8,9 +8,8 @@ module.exports = enumerateDevices;
  * Dependencies.
  */
 var
-	debug = require('debug')('iosrtc:enumerateDevices');
-	var cordova = require('cordova'),
-	exec = cordova.require('cordova/exec'),
+	debug = require('debug')('iosrtc:enumerateDevices'),
+	exec = require('cordova/exec'),
 	MediaDeviceInfo = require('./MediaDeviceInfo'),
 	Errors = require('./Errors');
 
